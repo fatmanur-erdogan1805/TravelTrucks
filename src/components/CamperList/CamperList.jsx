@@ -23,7 +23,7 @@ const CamperList = ({ campers }) => {
   const visibleCampers = campers.slice(0, visibleItems);
 
   useEffect(() => {
-    dispatch(resetVisibleItems()); // Сброс состояния при первой загрузке
+    dispatch(resetVisibleItems()); 
   }, [dispatch]);
 
   const handleFavoriteToggle = (camper) => {

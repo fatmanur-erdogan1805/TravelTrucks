@@ -16,7 +16,7 @@ import clsx from "clsx";
 
 const CamperDetailsPage = () => {
   const [loading, setLoading] = useState(false);
-  const [selectedTab, setSelectedTab] = useState("features"); // Управляет отображением по умолчанию
+  const [selectedTab, setSelectedTab] = useState("features"); // 
   const location = useLocation();
   const { camperId } = useParams();
   const [camperDetails, setCamperDetails] = useState(null);
