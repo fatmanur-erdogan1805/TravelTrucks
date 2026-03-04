@@ -1,0 +1,49 @@
+.homeContainer {
+  padding-top: 264px;
+  padding-left: 64px;
+  background-image: url("../../../public/PictureHome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 696px;
+  box-sizing: border-box;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("../../../public/PictureHome@2x.png");
+    background-size: 1440px 696px;
+  }
+}
+
+.homeBigTitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: var(--inputs);
+  margin-bottom: 16px;
+}
+
+.homeSmallTitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--inputs);
+  margin-bottom: 40px;
+}
+
+.homeBtn {
+  border: none;
+  border-radius: 200px;
+  padding: 16px 48.5px;
+  width: 173px;
+  background: var(--button);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}

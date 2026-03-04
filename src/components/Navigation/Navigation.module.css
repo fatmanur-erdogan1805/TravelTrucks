@@ -1,0 +1,27 @@
+.headerContainer {
+  width: 1440px;
+  border-bottom: 1px solid var(--badges);
+  padding: 24px 64px;
+  background: var(--inputs);
+  display: flex;
+  gap: 450px;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+}
+
+.active {
+  color: red;
+}
+
+.nav {
+  display: flex;
+  gap: 92px;
+}
